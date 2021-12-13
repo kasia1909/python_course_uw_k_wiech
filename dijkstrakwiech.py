@@ -33,7 +33,7 @@ def initialize_que(vertices: Iterable[str], begin: str):
     return [(0,begin)] + [(int(INF),v) for v in vertices if v != begin]
    # return [(0, begin)] + [(INF, v) for v in vertices if v != begin]
    # this is the orginial code, which contains
-   # the incorrect data structure type (a float) which is later converter to a string
+   # the incorrect data structure type (a float) which is later converter to an integer
 
 
 
